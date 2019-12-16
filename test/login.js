@@ -17,8 +17,9 @@ describe("workflow for saucedemo", function() {
   let driver;
   let url = "https://www.saucedemo.com/";
   before("setup driver", async function() {
+    this.timeout(20000);
     driver = await new Builder()
-      .forBrowser("chrome")
+      .forBrowser("firefox")
       .build();
   });
   it("Login, sort items, add two items, visit shopping cart", async function() {
