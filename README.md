@@ -8,4 +8,5 @@ In terminal:
 3. npm install
 4. npm run test
 
+Note: I limited my assertions to the ones listed in your workflow.
 
