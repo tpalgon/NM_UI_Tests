@@ -8,5 +8,7 @@ In terminal:
 3. npm install
 4. npm run test
 
-Note: I limited my assertions to the ones listed in your workflow.
+Note: I limited my assertions to the ones listed in your workflow. Also, I used the linter eslint.
+
+Please let me know if it doesn't go smoothly! 
 
