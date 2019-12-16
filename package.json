@@ -1,0 +1,20 @@
+{
+  "name": "nm_ui_tests",
+  "version": "1.0.0",
+  "description": "",
+  "main": "login.js",
+  "scripts": {
+    "pretest": "eslint --ignore-path .gitignore .",
+    "test": "node ./node_modules/mocha/bin/mocha"
+  },
+  "author": "Tamar Palgon",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.2.0",
+    "chai-as-promised": "^7.1.1",
+    "chromedriver": "^79.0.0",
+    "eslint": "^6.7.2",
+    "mocha": "^6.2.2",
+    "selenium-webdriver": "^4.0.0-alpha.5"
+  }
+}
